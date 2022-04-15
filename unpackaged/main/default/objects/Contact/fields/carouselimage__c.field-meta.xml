@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>carouselimage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(&quot;https://www.lightningdesignsystem.com/assets/images/carousel/carousel-01.jpg&quot;, &quot;carousel&quot;) &amp; &quot; &quot; &amp; BR() &amp; &quot; &quot; &amp; IMAGE(&quot;https://www.lightningdesignsystem.com/assets/images/carousel/carousel-02.jpg&quot;,&quot;carousel&quot;) &amp; &quot; &quot; &amp; BR() &amp; &quot; &quot; &amp;
+IMAGE(&quot;https://www.lightningdesignsystem.com/assets/images/carousel/carousel-03.jpg&quot;,&quot;carousel&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>carouselimage</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
