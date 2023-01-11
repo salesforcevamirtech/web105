@@ -1,0 +1,8 @@
+:host{
+    --padding-value: 1rem;
+  }
+  
+  .space{
+      padding:var(padding-value);
+  }
+  
